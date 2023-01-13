@@ -1,0 +1,83 @@
+
+/* commmon styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+.container{
+    background-color: #FFFF;
+    width: 870px;
+    padding: 30px;
+}
+main{
+    justify-content: center;
+    display: flex;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.title
+{
+    color: blue;
+    font-size: 24px;
+    margin-top: 3pxs;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+    
+}
+
+.player-name{
+    /* margin-left: 16px; */
+    padding-left: 16px;
+}
+hr{
+    border:1px solid lightgray;
+    margin-bottom: 27px;
+}
+
+/* top-blog style */
+.blog{
+    display: flex;
+}
+
+.blog .thumnel img{
+    Width: 177px;
+    Height :117px;
+
+}
+.blog-info{
+    margin-left:16px;
+}
+
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: gray;
+    font-size: 16px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color:blue;
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px;
+}
