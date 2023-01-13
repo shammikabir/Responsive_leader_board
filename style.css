@@ -8,10 +8,13 @@ body{
     background-color: #FFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 main{
-    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
 }
 .top-players{
     margin-bottom: 30px;
@@ -80,4 +83,37 @@ hr{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap:26px;
+}
+
+/* latest course */
+
+.course .banner img{
+    Width:224.38px;
+    Height:105.51px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid.filled{
+    color: #FFC014;
+}
+.fa-solid.empty{
+    color: lightgray;
+}
+
+.course-duration{
+    background-color: #FFE4E8;
+    border-radius: 7px;
+    color: red;
+}
+.fa-clock{
+    color: red;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
 }
